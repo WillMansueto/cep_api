@@ -1,7 +1,7 @@
-from queries import selectcep
+from queries import select_cep
 
 cep = input("Insert a Cep: ")
-result = selectcep(cep)
+result = select_cep(cep)
 if result:
   print(result)
 else:
